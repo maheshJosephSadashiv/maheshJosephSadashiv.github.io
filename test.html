@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo Hover Text</title>
+  <style>
+    .container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .container:hover .text {
+        display: block;
+    }
+
+    .text {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="your-logo.png" alt="Logo" width="100" height="100">
+  <div class="text">Your Text Here</div>
+</div>
+
+</body>
+</html>
