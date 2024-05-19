@@ -368,6 +368,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
+.top-buffer { margin-top:20px; }
+
 .skills {
     
 }
@@ -395,7 +397,15 @@ Icon pop ups
      border-radius: 5px;
 }
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.single-skill-content{padding-top: 50px;}
+.project-heading h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5ebf2;
+}
+
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -403,6 +413,7 @@ Icon pop ups
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
+
 .single-progress-txt {
     display: flex;
 }

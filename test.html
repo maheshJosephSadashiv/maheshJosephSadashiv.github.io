@@ -3,36 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Logo Hover Text</title>
+  <title>Technology Classification</title>
   <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
     .container {
-        position: relative;
-        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-
-    .container:hover .text {
-        display: block;
+    .category {
+        flex: 1;
+        min-width: 300px;
     }
-
-    .text {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
-        padding: 5px 10px;
-        border-radius: 5px;
+    .category h2 {
+        border-bottom: 2px solid #000;
+        padding-bottom: 10px;
+    }
+    .item {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .item img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
     }
   </style>
 </head>
 <body>
+<h1>Technology Classification</h1>
 
 <div class="container">
-  <img src="your-logo.png" alt="Logo" width="100" height="100">
-  <div class="text">Your Text Here</div>
-</div>
+  <div class="category">
+    <h2>Programming Languages</h2>
+    <div class="item"><img src="path/to/java-icon.png" alt="Java Icon">Java</div>
+    <div class="item"><img src="path/to/python-icon.png" alt="Python Icon">Python</div>
+    <div class="item"><img src="path/to/go-icon.png" alt="Go Icon">Go</div>
+    <div class="item"><img src="path/to/scala-icon.png" alt="Scala Icon">Scala</div>
+    <div class="item"><img src="path/to/html-css-icon.png" alt="HTML/CSS Icon">HTML/CSS</div>
+    <div class="item"><img src="path/to/javascript-icon.png" alt="JavaScript Icon">JavaScript</div>
+  </div>
 
+  <div class="category">
+    <h2>Frameworks and Libraries</h2>
+    <div class="item"><img src="path/to/spring-boot-icon.png" alt="Spring Boot Icon">Spring Boot</div>
+    <div class="item"><img src="path/to/go-micro-icon.png" alt="Go Micro Icon">Go Micro</div>
+    <div class="item"><img src="path/to/flask-icon.png" alt="Flask Icon">Flask</div>
+    <div class="item"><img src="path/to/opencv-icon.png" alt="OpenCV Icon">OpenCV</div>
+    <div class="item"><img src="path/to/react-icon.png" alt="React Icon">React</div>
+  </div>
+
+  <div class="category">
+    <h2>Backend Services and Platforms</h2>
+    <div class="item"><img src="path/to/firebase-icon.png" alt="Firebase Icon">Firebase</div>
+    <div class="item"><img src="path/to/aws-icon.png" alt="AWS Icon">AWS</div>
+    <div class="item"><img src="path/to/camunda-icon.png" alt="Camunda Icon">Camunda</div>
+  </div>
+
+  <div class="category">
+    <h2>Protocols and APIs</h2>
+    <div class="item"><img src="path/to/rest-icon.png" alt="REST Icon">REST</div>
+    <div class="item"><img src="path/to/grpc-icon.png" alt="gRPC Icon">gRPC</div>
+  </div>
+
+  <div class="category">
+    <h2>Monitoring and Analytics Tools</h2>
+    <div class="item"><img src="path/to/prometheus-icon.png" alt="Prometheus Icon">Prometheus</div>
+    <div class="item"><img src="path/to/grafana-icon.png" alt="Grafana Icon">Grafana</div>
+    <div class="item"><img src="path/to/instana-icon.png" alt="Instana Icon">Instana</div>
+    <div class="item"><img src="path/to/kibana-icon.png" alt="Kibana Icon">Kibana</div>
+  </div>
+
+  <div class="category">
+    <h2>Databases</h2>
+    <div class="item"><img src="path/to/sql-icon.png" alt="SQL Icon">SQL</div>
+    <div class="item"><img src="path/to/postgres-icon.png" alt="Postgres Icon">Postgres</div>
+    <div class="item"><img src="path/to/mongodb-icon.png" alt="MongoDB Icon">MongoDB</div>
+    <div class="item"><img src="path/to/elasticsearch-icon.png" alt="ElasticSearch Icon">Elasticsearch</div>
+  </div>
+
+  <div class="category">
+    <h2>DevOps and CI/CD Tools</h2>
+    <div class="item"><img src="path/to/git-icon.png" alt="Git Icon">Git</div>
+    <div class="item"><img src="path/to/docker-icon.png" alt="Docker Icon">Docker</div>
+    <div class="item"><img src="path/to/jenkins-icon.png" alt="Jenkins Icon">Jenkins</div>
+    <div class="item"><img src="path/to/openspec-icon.png" alt="OpenSpec Icon">OpenSpec</div>
+  </div>
+
+  <div class="category">
+    <h2>Big Data Technologies</h2>
+    <div class="item"><img src="path/to/hadoop-icon.png" alt="Hadoop Icon">Hadoop</div>
+  </div>
+</div>
 </body>
 </html>
